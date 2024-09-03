@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+    padding: 10px;
+    height: 60px;
+}
+
+.tab {
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 15px;
+    font-size: 16px;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #333;
+}
+
+.tab.blue {
+    background-color: #3a54ff;
+}
+
+.tab.light-blue {
+    background-color: #738aff;
+}
+
+.tab.orange {
+    background-color: #ce7845;
+}
+
+.onas-button {
+    background-color: #ffeb00;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.onas-button:hover {
+    background-color: #ffd700;
+}
